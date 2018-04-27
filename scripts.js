@@ -36,4 +36,13 @@ $(function() {
     	}
   	}
 
+  	Column.prototype = {
+    	addCard: function(card) {
+      		this.$element.children('ul').append(card.$element);
+    	},
+    	removeColumn: function() {
+      		this.$element.remove();
+    	}
+	};
+
 })
