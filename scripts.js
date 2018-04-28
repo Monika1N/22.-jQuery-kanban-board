@@ -61,7 +61,7 @@ $(function() {
     		//Tworzę elementy karty (karta, opis, button do usuwania karty)
     		var $card = $('<li>').addClass('card');
     		var $cardDescription = $('<p>').addClass('card-description').text(self.description);
-    		var $cardDelete = $('<button>').addClass('btn-delete').text('x');
+    		var $cardDelete = $('<button>').addClass('btn-delete left').text('x');
     		//Po kliknięciu na button karta zostaje usunięta
     		$cardDelete.click(function(){
         		self.removeCard();
