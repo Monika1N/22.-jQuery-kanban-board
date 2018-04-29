@@ -19,7 +19,7 @@ $(function() {
     	//Funkcja odpowiedzialna za stworzenie kolumny
     	function createColumn() {
     		//Tworzę elementy kolumny (nagłowek, lista, buttony)
-    		var $column = $('<div>').addClass('column');
+    	var $column = $('<div>').addClass('column');
 			var $columnTitle = $('<h2>').addClass('column-title').text(self.name);
 			var $columnCardList = $('<ul>').addClass('column-card-list');
 			var $columnDelete = $('<button>').addClass('btn-delete').text('x');
@@ -110,6 +110,5 @@ $(function() {
 	board.addColumn(doneColumn);
 
 	var card1 = new Card('New task');
-
 	todoColumn.addCard(card1);
 })
