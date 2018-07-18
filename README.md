@@ -1,2 +1,2 @@
-# Zadanie-11.6-Budujemy-nasz-maly-kanban
-https://monika1n.github.io/Zadanie-11.6-Budujemy-nasz-maly-kanban/
+# jQuery - kanban board
+https://monika1n.github.io/22.-jQuery-kanban-board/
